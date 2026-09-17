@@ -24,13 +24,13 @@
 
 ---
 
-**Story 3.** As a show-goer attending with friends, I want our clips of a song we all loved to end up grouped together automatically, so we don't have to manually text clips around afterward.
+**Story 3.** As a show-goer, I want clips of a song to land together on that song's page no matter who uploaded them, so nobody has to text clips around after the show.
 
 **Acceptance criteria**
-- [ ] Given multiple friends attending the same event upload clips of the same song, when any of them opens that song, then they see all of the group's clips together.
-- [ ] Given only one friend recorded a song and the others didn't, when the others look for it, then they can find and watch that clip without it being manually sent to them.
+- [ ] Given several attendees at the same event upload clips of the same song, when any user opens that song, then they see all of those clips together.
+- [ ] Given only one person recorded a song, when anyone else looks for it, then they can find and watch that clip without it being sent to them directly.
 
-**Evidence.** Interview Q3, Interviewee A — a specific song that the whole friend group loved, one person recorded it, and they sent it to each other afterward.
+**Evidence.** Interview Q3, Interviewee A — a specific song that everyone they were with loved, one person recorded it, and they sent it to each other afterward.
 
 ---
 
@@ -89,7 +89,7 @@
 | Band | Stories | Reasoning |
 |---|---|---|
 | **Must** | 1, 6, 7 | These are the product. A user uploads a clip, it's organized by setlist (7), anyone can open a song and watch it (1), and if multiple people uploaded the same song you see all of them (6). Without any one of these, the app doesn't do its core job. |
-| **Should** | 2, 3 | Both came from strong interview evidence — selective recording (2) and friends pooling clips (3) — but the product still functions without them on day one. |
+| **Should** | 2, 3 | Both came from strong interview evidence — selective recording (2) and attendees pooling clips (3) — but the product still functions without them on day one. |
 | **Could** | 5, 8 | Moment tagging (5) and finding a better angle than yours (8) are nice once the library has volume. Neither is load-bearing for a first demo. |
 | **Won't** | 4 | Live coverage signals ("someone's already recording this") require real-time data and critical mass to be meaningful. Showing "0 people recording" at launch actively undermines confidence rather than building it. Revisit once there's enough user activity for the signal to be trustworthy. |
 
