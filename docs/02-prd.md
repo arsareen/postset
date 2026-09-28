@@ -90,6 +90,12 @@ As a show-goer, I want clips of a song to land together on that song's page no m
 - Given several attendees upload clips of the same song at the same event, when any user opens that song, then they see all of those clips together.
 - Given only one person recorded a song, when anyone else looks for it, then they can find and watch it without it being sent to them directly.
 
+**Story 9. Search by song and event.**
+As a viewer, I want to search for a specific song or event, so I can jump straight to what I'm looking for instead of browsing through everything, the way I currently dig blindly through YouTube and hashtags.
+
+- Given clips exist for a song, when I search that song's name, then matching songs appear in the results.
+- Given I search an event name, when the results load, then I can open that event and browse its songs.
+
 ### Could
 
 **Story 5. Tag a standalone moment.** As an uploader, I want to tag a clip as a highlight moment not tied to a song, so a one-off like a guest cameo isn't lost or forced into the wrong song's page.
